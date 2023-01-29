@@ -29,7 +29,6 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
-  authorImage: '/static/favicon.ico'
 
   # for enchanced SEO
   env: production
