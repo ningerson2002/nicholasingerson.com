@@ -3,6 +3,11 @@ languageCode: en-us
 title: Nicholas Ingerson
 theme: PaperMod
 
+favicon:
+  -url: /static/favicon.ico
+   static_files: favicon.ico
+   upload: favicon.ico
+
 menu:
   main:
     - identifier: home
