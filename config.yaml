@@ -2,7 +2,6 @@ baseURL: 'https://nicholasingerson.netlify.app/'
 languageCode: en-us
 title: Nicholas Ingerson
 theme: PaperMod
-authorImage: '/static/favicon.ico'
 
 menu:
   main:
@@ -30,6 +29,7 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
+  authorImage: '/static/favicon.ico'
 
   # for enchanced SEO
   env: production
