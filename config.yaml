@@ -43,8 +43,8 @@ params:
     imageWidth: 220
     imageHeight: 220
     buttons:
-      - name: Resume
-        url: 'https://drive.google.com/file/d/1rwldxTY2vaW-1BGAza5GC5vej5UmdWj-NLrvtqesBOU/view'
+    #  - name: Resume
+    #    url: 'https://drive.google.com/file/d/1rwldxTY2vaW-1BGAza5GC5vej5UmdWj-NLrvtqesBOU/view'
 
   # List View
   hideDescriptionInList: false
@@ -61,8 +61,8 @@ params:
       url: 'https://www.linkedin.com/in/ningerson2002'
     - name: 'github'
       url: 'https://github.com/ningerson2002'
-    # - name: 'cv'
-    #  url: 'https://drive.google.com/file/d/1rwldxTY2vaW-1BGAza5GC5vej5UmdWj-NLrvtqesBOU/view'
+    - name: 'cv'
+      url: 'https://drive.google.com/file/d/1rwldxTY2vaW-1BGAza5GC5vej5UmdWj-NLrvtqesBOU/view'
 
   # text search
   fuseOpts:
