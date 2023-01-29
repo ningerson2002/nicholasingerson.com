@@ -38,7 +38,7 @@ params:
     enabled: true
     title: 'Nicholas C. Ingerson-Meacham'
     subtitle: "Hi 👋, I'm Nic, a **computer science** student at **Allegheny College**. I'm passionate about **Python Programming**, **Robotics**, and **AI**."
-    imageUrl: 'home/me.jpg'
+    imageUrl: '/home/me.jpg'
     imageWidth: 220
     imageHeight: 220
     # buttons:
