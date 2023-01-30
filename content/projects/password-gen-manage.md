@@ -6,7 +6,7 @@ draft: false
 tags:
   [
     'password generator',
-    'password manager'
+    'password manager',
     'Python programming',
     'security',
     'random passwords',
