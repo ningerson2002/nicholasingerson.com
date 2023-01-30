@@ -25,6 +25,8 @@ cover:
   image: '/blog/website-development/cover.jpg'
 ---
 
+### 🔗 [Site Repository](https://github.com/ningerson2002/nicholasingerson.com)
+
 As a developer, having a personal portfolio website is crucial in showcasing your skills and projects to potential employers and clients. In this blog post, I'll be sharing my journey in developing my own portfolio website using Hugo, the PaperMod theme, and Netlify for deployment.
 
 ## Why [Hugo](https://gohugo.io/) and [PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod)
