@@ -27,9 +27,9 @@ cover:
 
 As a developer, having a personal portfolio website is crucial in showcasing your skills and projects to potential employers and clients. In this blog post, I'll be sharing my journey in developing my own portfolio website using Hugo, the PaperMod theme, and Netlify for deployment.
 
-## Why [Hugo](https://gohugo.io/) and PaperMod Theme
+## Why [Hugo](https://gohugo.io/) and [PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod)
 
-I chose to use Hugo for my static site generation because of its ease of use and flexible nature. With Hugo, I could create markdown files for my content, making it simple to add new blog posts or projects. I also found the [PaperMod theme](https://github.com/adityatelange/hugo-PaperMod) to be visually appealing and highly customizable, which was important to me in creating a personal brand.
+I chose to use Hugo for my static site generation because of its ease of use and flexible nature. With Hugo, I could create markdown files for my content, making it simple to add new blog posts or projects. I also found the PaperMod theme to be visually appealing and highly customizable, which was important to me in creating a personal brand.
 
 ## Deploying with [Netlify](https://netlify.app/)
 
