@@ -22,7 +22,7 @@ cover:
   image: 'projects/bank-account/cover.jpg'
 ---
 
-### [Repository](https://github.com/ningerson2002/bank-account-cli)
+### 🔗 [Repository](https://github.com/ningerson2002/bank-account-cli)
 
 ## Description
 
