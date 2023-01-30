@@ -22,6 +22,8 @@ cover:
   image: 'projects/pass-gen/cover.jpg'
 ---
 
+### 🔗 [Repository](https://github.com/ningerson2002/password-generator-manager)
+
 ## Description
 
 A password generator is a tool that creates a secure, random password for a user to use as a login credential. This personal project was created using Python programming language, making use of the built-in string and random modules. The initial implementation was basic, but it was later evolved to include the option of special characters, providing an added layer of security to the generated passwords.
