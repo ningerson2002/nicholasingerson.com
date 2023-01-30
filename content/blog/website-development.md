@@ -25,8 +25,6 @@ cover:
   image: '/blog/website-development/cover.jpg'
 ---
 
-# Building a Personal Portfolio: My Journey with Hugo, PaperMod Theme, and Netlify
-
 As a developer, having a personal portfolio website is crucial in showcasing your skills and projects to potential employers and clients. In this blog post, I'll be sharing my journey in developing my own portfolio website using Hugo, the PaperMod theme, and Netlify for deployment.
 
 ## Why Hugo and PaperMod Theme
