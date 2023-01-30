@@ -1,7 +1,7 @@
 ---
 title: 'Automated Grading'
 description: 'A plugin for SheetShuttle, an open-source project'
-dateString: October 2022 - December 2022
+dateString: Oct 2022 - Dec 2022
 draft: false
 tags:
   [

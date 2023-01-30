@@ -1,7 +1,7 @@
 ---
 title: 'Password Generator and Manager'
 description: 'Generates a password and stores it with other generated passwords in a markdown file.'
-dateString: December 2022 - January 2023
+dateString: Dec 2022 - Jan 2023
 draft: false
 tags:
   [

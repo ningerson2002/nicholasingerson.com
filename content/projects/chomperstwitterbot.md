@@ -1,7 +1,7 @@
 ---
 title: '@chomp_bot: A Timed Twitter Bot'
 description: 'Can intro computer science students create a basic Twitter bot?'
-dateString: November 2021 - December 2021
+dateString: Nov 2021 - Dec 2021
 draft: false
 tags:
   [

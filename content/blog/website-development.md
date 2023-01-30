@@ -1,7 +1,7 @@
 ---
 title: 'Creating my Portfolio Website'
 description: 'My journey in learning basic web development and creating my portfolio website.'
-dateString: January 2023
+dateString: 29 Jan 2023
 draft: false
 tags:
   [
