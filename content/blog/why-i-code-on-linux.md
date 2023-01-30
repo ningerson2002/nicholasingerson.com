@@ -1,7 +1,7 @@
 ---
 title: 'Why I Code on Linux Instead of Windows'
 description: 'My Journey to Switching to Ubuntu from Windows 11 for Programming.'
-dateString: 29 Jan 2023
+dateString: 29 Jan 2023  | 📖 <5 minute read
 draft: false
 tags:
   [
