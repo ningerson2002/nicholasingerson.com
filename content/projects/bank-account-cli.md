@@ -3,7 +3,19 @@ title: 'Bank Account CLI'
 description: 'Fully functional bank account system in the command-line interface.'
 dateString: Jan 2023
 draft: false
-tags: []
+tags:
+  [
+    'Python',
+    'command line',
+    'bank account system',
+    'object-oriented programming',
+    'user-friendly',
+    'transactions',
+    'deposit',
+    'withdraw',
+    'check balance',
+    'reliability',
+  ]
 showToc: false
 weight: 203
 cover:
