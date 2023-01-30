@@ -1,7 +1,7 @@
 # Web Site for Nicholas Ingerson
 
 ![Build](https://img.shields.io/github/actions/workflow/status/ningerson2002/nicholasingerson.com/main.yml)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0d5dc008-1524-4362-9e3a-d140dd0235b0/deploy-status)](https://app.netlify.com/sites/nicholasingerson/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ba797cc4-da0a-4ef1-b72e-499ecf21130a/deploy-status)](https://app.netlify.com/sites/nicholasingerson/deploys)
 
 This is the source code repository for [nicholasingerson.netlify.app](https://nicholasingerson.netlify.app/), the personal website of Nicholas Ingerson.
 
