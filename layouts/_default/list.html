@@ -34,15 +34,15 @@ if not .IsHome | and .Title }}
 	"anchored_headings.html" .Content -}} {{- else }}{{ .Content }}{{ end }}
 </div>
 {{- end }} {{- $pages := union .RegularPages .Sections }} {{- if .IsHome }} {{-
-$pages = where site.RegularPages "Type" "in" site.Params.mainSections }} {{- end
-}} {{- $paginator := .Paginate $pages }} {{- if and .IsHome
-site.Params.homeInfoParams (eq $paginator.PageNumber 1) }} {{- partial
-"home_info.html" . }} {{- end }} {{- $term := .Data.Term }} {{- range $index,
-$page := $paginator.Pages }} {{- $class := "post-entry" }} {{- $user_preferred
-:= or site.Params.disableSpecial1stPost site.Params.homeInfoParams }} {{- if
-(and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred))
-}} {{- $class = "first-entry" }} {{- else if $term }} {{- $class = "post-entry
-tag-entry" }} {{- end }}
+$pages = where site.RegularPages "Type" "in" site.Params.mainSections }} {{-
+$pages = where $pages "Params.hiddenInHomeList" "!=" "true" }} {{- end }} {{-
+$paginator := .Paginate $pages }} {{- if and .IsHome site.Params.homeInfoParams
+(eq $paginator.PageNumber 1) }} {{- partial "home_info.html" . }} {{- end }} {{-
+$term := .Data.Term }} {{- range $index, $page := $paginator.Pages }} {{- $class
+:= "post-entry" }} {{- $user_preferred := or site.Params.disableSpecial1stPost
+site.Params.homeInfoParams }} {{- if (and $.IsHome (eq $paginator.PageNumber 1)
+(eq $index 0) (not $user_preferred)) }} {{- $class = "first-entry" }} {{- else
+if $term }} {{- $class = "post-entry tag-entry" }} {{- end }}
 
 <article class="{{ $class }}">
 	{{- $isHidden := (site.Params.cover.hidden | default
@@ -55,10 +55,11 @@ tag-entry" }} {{- end }}
 			>{{- end }}
 		</h2>
 	</header>
-	<!-- Added a custom param hideDescriptionInList  -->
-	{{- if (ne (.Param "hideDescriptionInList") true) }}
+	{{- if (ne (.Param "hideSummary") true) }}
 	<div class="entry-content">
-		<p>{{ .Description }}</p>
+		<p>
+			{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}
+		</p>
 	</div>
 	{{- end }} {{- if not (.Param "hideMeta") }}
 	<footer class="entry-footer">{{- partial "post_meta.html" . -}}</footer>
@@ -73,13 +74,15 @@ tag-entry" }} {{- end }}
 <footer class="page-footer">
 	<nav class="pagination">
 		{{- if $paginator.HasPrev }}
-		<a class="prev" href="{{ $paginator.Prev.URL | absURL }}"
-			>« {{ i18n "prev_page" }}</a
-		>
+		<a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+			«&nbsp;{{ i18n "prev_page" }}&nbsp; {{- if (.Param "ShowPageNums") }} {{-
+			sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }} {{- end }}
+		</a>
 		{{- end }} {{- if $paginator.HasNext }}
-		<a class="next" href="{{ $paginator.Next.URL | absURL }}"
-			>{{ i18n "next_page" }} »</a
-		>
+		<a class="next" href="{{ $paginator.Next.URL | absURL }}">
+			{{- i18n "next_page" }}&nbsp; {{- if (.Param "ShowPageNums") }} {{- add 1
+			$paginator.PageNumber }}/{{ $paginator.TotalPages }} {{- end }}&nbsp;»
+		</a>
 		{{- end }}
 	</nav>
 </footer>
