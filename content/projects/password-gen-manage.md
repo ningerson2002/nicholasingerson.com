@@ -5,6 +5,7 @@ dateString: Dec 2022 - Jan 2023
 draft: false
 tags:
   [
+    'Python',
     'password generator',
     'password manager',
     'Python programming',
