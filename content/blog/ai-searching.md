@@ -3,7 +3,21 @@ title: 'Searching Algorithms in AI'
 description: 'A summary from my lecture in Artificial Intelligence'
 dateString: 30 Jan 2023 | 📖 10 minute read
 draft: false
-tags: []
+tags:
+  [
+    'AI',
+    'Searching algorithms',
+    'Machine learning',
+    'Artificial intelligence',
+    'Computational intelligence',
+    'Optimization',
+    'Problem solving',
+    'Pathfinding',
+    'Breadth-first',
+    'Depth-first',
+    'Depth limited',
+    'Iterative deepening',
+  ]
 weight: 101
 cover:
   image: '/blog/ai-searching/cover.jpg'
