@@ -1,7 +1,7 @@
 ---
 title: 'My Workflow Setup 2023'
 description: 'A deep dive into my workflow as a CS student at Allegheny College.'
-dateString: 31 Jan 2023  | 📖 10 minute read
+dateString: 31 Jan 2023  | 📖 5 minute read
 draft: false
 tags:
   [
