@@ -3,7 +3,31 @@ title: 'My Workflow Setup 2023'
 description: 'A deep dive into my workflow as a CS student at Allegheny College.'
 dateString: 31 Jan 2023  | 📖 10 minute read
 draft: false
-tags: []
+tags:
+  [
+    'workflow',
+    'computer science',
+    'student',
+    'software development',
+    'coding',
+    'machine setup',
+    'CPU',
+    'disk space',
+    'peripherals',
+    'operating system',
+    'Linux',
+    'Mac',
+    'Windows',
+    'IDE',
+    'customization',
+    'productivity',
+    'efficiency',
+    'Python',
+    'R',
+    'C++',
+    'Dell XPS 13 9300',
+    'Allegheny College',
+  ]
 weight: 101
 cover:
   image: '/blog/my-workflow-setup/cover.jpg'
