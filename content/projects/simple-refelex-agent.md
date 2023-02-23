@@ -3,12 +3,23 @@ title: 'Temperature Probe Reflex Agent'
 description: 'Simple AI agent which reacts to changes in its environment.'
 dateString: Jan 2023
 draft: false
-tags: ['Arduino', 'AI', 'C++', 'Computer science', 'class', 'project']
+tags:
+  [
+    'Arduino',
+    'AI',
+    'C++',
+    'Computer science',
+    'class',
+    'project',
+    'Articial Intelligence',
+  ]
 showToc: false
 weight: 203
 cover:
   image: 'projects/simple-reflex-agent/cover.jpg'
 ---
+
+![Build](https://img.shields.io/github/actions/workflow/status/CMPSC-310-AI-Spring2023/temperature-reflex-agent/main.yml)
 
 ### 🔗 [Repository Link](https://github.com/CMPSC-310-AI-Spring2023/temperature-reflex-agent/)
 
