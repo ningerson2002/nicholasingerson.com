@@ -2,7 +2,7 @@
 title: 'Simple Reflex Agent'
 description: 'Simple AI agent which reacts to changes in its environment.'
 dateString: Jan 2023
-draft: false
+draft: true
 tags: ['Arduino', 'AI', 'C++', 'Computer science', 'class', 'project']
 showToc: false
 weight: 203

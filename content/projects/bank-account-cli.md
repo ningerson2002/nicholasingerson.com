@@ -2,7 +2,7 @@
 title: 'Bank Account CLI'
 description: 'Fully functional bank account system in the command-line interface.'
 dateString: Jan 2023
-draft: false
+draft: true
 tags:
   [
     'Python',
