@@ -47,3 +47,28 @@ link4.addEventListener('click', () => {
 phoneNumber.addEventListener('click', () => {
 	copyLinkText();
 });
+
+// Function to handle the fade-in effect
+function handleIntersection(entries, observer) {
+	entries.forEach((entry) => {
+		if (entry.isIntersecting) {
+			entry.target.style.opacity = 1;
+			observer.unobserve(entry.target);
+		}
+	});
+}
+
+// Create an observer that will trigger the effect when sections are in the viewport
+const options = {
+	root: null,
+	rootMargin: '0px',
+	threshold: 0.3, // Adjust this threshold as needed
+};
+
+const observer = new IntersectionObserver(handleIntersection, options);
+
+// Select all sections and observe them
+const sections = document.querySelectorAll('.container');
+sections.forEach((container) => {
+	observer.observe(container);
+});

@@ -87,6 +87,8 @@ nav {
 	max-width: 1200px;
 	margin: auto;
 	padding: 5rem 2rem;
+	opacity: 0;
+	transition: opacity 0.6s;
 }
 
 .blur {
