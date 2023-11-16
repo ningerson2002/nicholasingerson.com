@@ -21,7 +21,6 @@ This portfolio website is designed to showcase my skills, projects, and experien
 - Responsive design for a seamless experience on various devices.
 - Sections for displaying my skills, projects, education, and work experience.
 - Interactive elements to engage visitors, such as project showcases and contact forms.
-- [Any additional features you have implemented]
 
 ## Technologies Used
 
