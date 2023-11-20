@@ -1,5 +1,7 @@
 # My Portfolio
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/78c1c7cc-0947-4dc0-afd9-e0a9a3b467aa/deploy-status)](https://app.netlify.com/sites/nicholasingerson/deploys)
+
 Welcome to my portfolio website! This repository contains the source code and assets for my personal portfolio.
 
 ## Table of Contents
@@ -14,19 +16,21 @@ Welcome to my portfolio website! This repository contains the source code and as
 
 ## About
 
-This portfolio website is designed to showcase my skills, projects, and experiences as a computer science student and software developer. It provides an interactive and visually appealing way for visitors to learn more about me and explore my work.
+This portfolio website is designed to showcase my skills, projects, and experiences as a [Your Profession or Field]. It provides an interactive and visually appealing way for visitors to learn more about me and explore my work.
 
 ## Features
 
 - Responsive design for a seamless experience on various devices.
 - Sections for displaying my skills, projects, education, and work experience.
 - Interactive elements to engage visitors, such as project showcases and contact forms.
+- [Any additional features you have implemented]
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
+- [Any additional technologies or frameworks you've used]
 
 ## Getting Started
 
@@ -44,7 +48,7 @@ If you find any issues or have suggestions for improvement, please open an issue
 
 ## Contributing
 
-Contributions are welcome! If you have ideas for new features, find a bug, or want to improve the code, feel free to contribute. Please follow the [Contribution Guidelines](CONTRIBUTING.md).
+Contributions are welcome! If you have ideas for new features, find a bug, or want to improve the code, feel free to contribute. Please follow the [Contribution Guidelines](docs/CONTRIBUTING.md).
 
 ---
 
