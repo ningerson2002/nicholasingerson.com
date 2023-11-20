@@ -14,21 +14,19 @@ Welcome to my portfolio website! This repository contains the source code and as
 
 ## About
 
-This portfolio website is designed to showcase my skills, projects, and experiences as a [Your Profession or Field]. It provides an interactive and visually appealing way for visitors to learn more about me and explore my work.
+This portfolio website is designed to showcase my skills, projects, and experiences as a computer science student and software developer. It provides an interactive and visually appealing way for visitors to learn more about me and explore my work.
 
 ## Features
 
 - Responsive design for a seamless experience on various devices.
 - Sections for displaying my skills, projects, education, and work experience.
 - Interactive elements to engage visitors, such as project showcases and contact forms.
-- [Any additional features you have implemented]
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- [Any additional technologies or frameworks you've used]
 
 ## Getting Started
 
