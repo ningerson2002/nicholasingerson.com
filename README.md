@@ -30,7 +30,6 @@ This portfolio website is designed to showcase my skills, projects, and experien
 - HTML5
 - CSS3
 - JavaScript
-- [Any additional technologies or frameworks you've used]
 
 ## Getting Started
 
