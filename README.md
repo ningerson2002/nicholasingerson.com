@@ -1,3 +1,5 @@
+<img src='assets/images/banner.png'></img>
+
 # My Portfolio
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/78c1c7cc-0947-4dc0-afd9-e0a9a3b467aa/deploy-status)](https://app.netlify.com/sites/nicholasingerson/deploys)
@@ -23,7 +25,6 @@ This portfolio website is designed to showcase my skills, projects, and experien
 - Responsive design for a seamless experience on various devices.
 - Sections for displaying my skills, projects, education, and work experience.
 - Interactive elements to engage visitors, such as project showcases and contact forms.
-- [Any additional features you have implemented]
 
 ## Technologies Used
 
