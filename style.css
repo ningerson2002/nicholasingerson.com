@@ -1,8 +1,17 @@
 /* CSS Reset */
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: 'Zrnic';
+    src: url('fonts/zrnic\ rg.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Planet Kosmos';
+    src: url('fonts/PLANK__.TTF') format('truetype');
+}
+
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Zrnic';
     margin: 0;
     padding: 0;
     border: none;
@@ -40,13 +49,13 @@ body{
 }
 
 .logo{
+    font-family: 'Planet Kosmos';
     font-size: 2.2rem;
-    font-weight: 600;
     color: red;
 }
 
 .menu-bar a{
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin-left: 3.5rem;
     transition: 0.4s ease;
 }
@@ -62,9 +71,21 @@ body{
 
 
 /* Home Section */
+
+
 /* About Section */
+
+
 /* Skills Section */
+
+
 /* Projects Section */
+
+
 /* Contact Section */
+
+
 /* Footer Section */
+
+
 /* Responsive Section */
