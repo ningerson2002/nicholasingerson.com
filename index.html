@@ -152,12 +152,17 @@
       <h2>Contact <span>Me</span></h2>
     </div>
 
-    <form action="#" class="form">
-      <input type="text" placeholder="Your Name">
-      <input type="email" placeholder="Your Email">
-      <textarea name="" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
-      <input type="submit" class="btn" value="Send Message">
+    <form name="contact" method="POST" data-netlify="true" class="form">
+      <input type="hidden" name="form-name" value="contact">
+
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
     </form>
+
+
    </section>
 
   <!-- Footer Section -->
