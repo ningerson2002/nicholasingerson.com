@@ -1,0 +1,70 @@
+/* CSS Reset */
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    color: #FAEBD7;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: #050301;
+    color: #FAEBD7;
+}
+/* Header Section */
+.header{
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: red;
+}
+
+.menu-bar a{
+    font-size: 1.5rem;
+    margin-left: 3.5rem;
+    transition: 0.4s ease;
+}
+
+.menu-bar a:hover{
+    color: red;
+}
+
+#menu-btn{
+    font-size: 3rem;
+    display: none;
+}
+
+
+/* Home Section */
+/* About Section */
+/* Skills Section */
+/* Projects Section */
+/* Contact Section */
+/* Footer Section */
+/* Responsive Section */
