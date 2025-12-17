@@ -254,7 +254,6 @@ span{
 
 .project-card{
     position: relative;
-    height: 50rem;
     width: 100%;
     overflow: hidden;
     transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
