@@ -13,19 +13,19 @@ window.onscroll = () => {
     menuBar.classList.remove('active');
 }
 
-// Scroll Reveal //
+// // Scroll Reveal //
 
-ScrollReveal({
-    reset: true,
-    distance: '100px',
-    duration: 2000,
-    delay: 200
-});
+// ScrollReveal({
+//     reset: true,
+//     distance: '100px',
+//     duration: 2000,
+//     delay: 200
+// });
 
-ScrollReveal().reveal('.home-bio h1, .about-resume', {origin: 'left'});
-ScrollReveal().reveal('.home-bio p', {origin: 'right'});
-ScrollReveal().reveal('.home-bio, .heading', {origin: 'top'});
-ScrollReveal().reveal('.profile-pic, .about-items, .skills-items, .projects-items, .form', {origin: 'bottom'});
+// ScrollReveal().reveal('.home-bio h1, .about-resume', {origin: 'left'});
+// ScrollReveal().reveal('.home-bio p', {origin: 'right'});
+// ScrollReveal().reveal('.home-bio, .heading', {origin: 'top'});
+// ScrollReveal().reveal('.profile-pic, .about-items, .skills-items, .projects-items, .form', {origin: 'bottom'});
 
 // Typing Animation //
 
