@@ -2,7 +2,7 @@
 /* Import Google Fonts */
 
 @font-face {
-    font-family: 'Creato Display';
+    font-family: 'Creato Display Medium';
     src: url('fonts/CREATODISPLAY-MEDIUM.OTF') format('opentype');
 }
 
@@ -12,7 +12,7 @@
 }
 
 *{
-    font-family: 'Creato Display';
+    font-family: 'Creato Display Medium';
     margin: 0;
     padding: 0;
     border: none;
