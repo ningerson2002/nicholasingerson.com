@@ -3,12 +3,12 @@
 
 @font-face {
     font-family: 'Creato Display';
-    src: url('fonts/CREATODISPLAY-MEDIUM.OTF') format('open');
+    src: url('fonts/CREATODISPLAY-MEDIUM.OTF') format('opentype');
 }
 
 @font-face {
     font-family: 'BOLD MYPE BOLD';
-    src: url(fonts/BOLD-MYPE-BOLD.TTF) format('true');
+    src: url(fonts/BOLD-MYPE-BOLD.TTF) format('truetype');
 }
 
 *{
